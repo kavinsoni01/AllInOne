@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Track" representedClassName="Track" syncable="YES">
+        <attribute name="albumname" optional="YES" attributeType="String"/>
+        <attribute name="audioLink" optional="YES" attributeType="String"/>
+        <attribute name="documentLink" optional="YES" attributeType="URI"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageurl" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="trackimage" optional="YES" attributeType="Binary"/>
+        <attribute name="trackname" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Track" positionX="-45" positionY="0" width="128" height="163"/>
+    </elements>
+</model>

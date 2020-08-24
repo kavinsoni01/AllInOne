@@ -1,0 +1,6 @@
+framework module Pods_Techtic_practical {
+  umbrella header "Pods-Techtic_practical-umbrella.h"
+
+  export *
+  module * { export * }
+}

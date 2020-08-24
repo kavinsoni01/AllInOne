@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A41299E24F4012300BAB885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A41299D24F4012300BAB885 /* AppDelegate.swift */; };
+		8A4129A024F4012300BAB885 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A41299F24F4012300BAB885 /* SceneDelegate.swift */; };
+		8A4129A524F4012300BAB885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4129A324F4012300BAB885 /* Main.storyboard */; };
+		8A4129A824F4012300BAB885 /* Techtic_practical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129A624F4012300BAB885 /* Techtic_practical.xcdatamodeld */; };
+		8A4129AA24F4012400BAB885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4129A924F4012400BAB885 /* Assets.xcassets */; };
+		8A4129AD24F4012400BAB885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4129AB24F4012400BAB885 /* LaunchScreen.storyboard */; };
+		8A4129B824F4017300BAB885 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129B724F4017300BAB885 /* HomeViewController.swift */; };
+		8A4129BC24F4023300BAB885 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129BA24F4023300BAB885 /* HomeTableCell.swift */; };
+		8A4129BD24F4023300BAB885 /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4129BB24F4023300BAB885 /* HomeTableCell.xib */; };
+		8A4129C224F4033900BAB885 /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129BE24F4033800BAB885 /* extention.swift */; };
+		8A4129C324F4033900BAB885 /* Globel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129BF24F4033800BAB885 /* Globel.swift */; };
+		8A4129C424F4033900BAB885 /* ServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129C124F4033800BAB885 /* ServiceManger.swift */; };
+		8A4129C824F4113400BAB885 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129C724F4113400BAB885 /* TrackModel.swift */; };
+		8A4129CA24F419B800BAB885 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129C924F419B800BAB885 /* CoreDataManager.swift */; };
+		8A4129D624F42A0A00BAB885 /* Track+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129D424F42A0A00BAB885 /* Track+CoreDataClass.swift */; };
+		8A4129D724F42A0A00BAB885 /* Track+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129D524F42A0A00BAB885 /* Track+CoreDataProperties.swift */; };
+		8A4129D924F4535400BAB885 /* AIReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4129D824F4535400BAB885 /* AIReachabilityManager.swift */; };
+		D9842226CC3DC0C314C2289F /* Pods_Techtic_practical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC1B466A806EA0317FE5855 /* Pods_Techtic_practical.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D45596EAFAACD32DA6EF113 /* Pods-Techtic_practical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techtic_practical.debug.xcconfig"; path = "Target Support Files/Pods-Techtic_practical/Pods-Techtic_practical.debug.xcconfig"; sourceTree = "<group>"; };
+		4D63B585B1DE1D04C7A9F40A /* Pods-Techtic_practical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Techtic_practical.release.xcconfig"; path = "Target Support Files/Pods-Techtic_practical/Pods-Techtic_practical.release.xcconfig"; sourceTree = "<group>"; };
+		4DC1B466A806EA0317FE5855 /* Pods_Techtic_practical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Techtic_practical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A41299A24F4012300BAB885 /* Techtic_practical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techtic_practical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A41299D24F4012300BAB885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A41299F24F4012300BAB885 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A4129A424F4012300BAB885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A4129A724F4012300BAB885 /* Techtic_practical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Techtic_practical.xcdatamodel; sourceTree = "<group>"; };
+		8A4129A924F4012400BAB885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A4129AC24F4012400BAB885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A4129AE24F4012400BAB885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4129B724F4017300BAB885 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A4129BA24F4023300BAB885 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		8A4129BB24F4023300BAB885 /* HomeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableCell.xib; sourceTree = "<group>"; };
+		8A4129BE24F4033800BAB885 /* extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extention.swift; sourceTree = "<group>"; };
+		8A4129BF24F4033800BAB885 /* Globel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globel.swift; sourceTree = "<group>"; };
+		8A4129C124F4033800BAB885 /* ServiceManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManger.swift; sourceTree = "<group>"; };
+		8A4129C724F4113400BAB885 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		8A4129C924F419B800BAB885 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8A4129D424F42A0A00BAB885 /* Track+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Track+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8A4129D524F42A0A00BAB885 /* Track+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Track+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8A4129D824F4535400BAB885 /* AIReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIReachabilityManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A41299724F4012300BAB885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9842226CC3DC0C314C2289F /* Pods_Techtic_practical.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A41299124F4012300BAB885 = {
+			isa = PBXGroup;
+			children = (
+				8A41299C24F4012300BAB885 /* Techtic_practical */,
+				8A41299B24F4012300BAB885 /* Products */,
+				AA30E7D6CEAA26357405103F /* Pods */,
+				D60CF61C08C06309CC68CEB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A41299B24F4012300BAB885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A41299A24F4012300BAB885 /* Techtic_practical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A41299C24F4012300BAB885 /* Techtic_practical */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129C524F4110A00BAB885 /* Model */,
+				8A4129B524F4014300BAB885 /* ViewController */,
+				8A4129B424F4012F00BAB885 /* Utils */,
+				8A41299D24F4012300BAB885 /* AppDelegate.swift */,
+				8A41299F24F4012300BAB885 /* SceneDelegate.swift */,
+				8A4129A324F4012300BAB885 /* Main.storyboard */,
+				8A4129A924F4012400BAB885 /* Assets.xcassets */,
+				8A4129AB24F4012400BAB885 /* LaunchScreen.storyboard */,
+				8A4129AE24F4012400BAB885 /* Info.plist */,
+				8A4129A624F4012300BAB885 /* Techtic_practical.xcdatamodeld */,
+			);
+			path = Techtic_practical;
+			sourceTree = "<group>";
+		};
+		8A4129B424F4012F00BAB885 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129D824F4535400BAB885 /* AIReachabilityManager.swift */,
+				8A4129BE24F4033800BAB885 /* extention.swift */,
+				8A4129BF24F4033800BAB885 /* Globel.swift */,
+				8A4129C024F4033800BAB885 /* ServiceManger */,
+				8A4129C924F419B800BAB885 /* CoreDataManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8A4129B524F4014300BAB885 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129B624F4015800BAB885 /* HomeViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8A4129B624F4015800BAB885 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129B924F4021400BAB885 /* HomeTableCell */,
+				8A4129B724F4017300BAB885 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		8A4129B924F4021400BAB885 /* HomeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129BA24F4023300BAB885 /* HomeTableCell.swift */,
+				8A4129BB24F4023300BAB885 /* HomeTableCell.xib */,
+			);
+			path = HomeTableCell;
+			sourceTree = "<group>";
+		};
+		8A4129C024F4033800BAB885 /* ServiceManger */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129C124F4033800BAB885 /* ServiceManger.swift */,
+			);
+			path = ServiceManger;
+			sourceTree = "<group>";
+		};
+		8A4129C524F4110A00BAB885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129C624F4111100BAB885 /* TrackModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A4129C624F4111100BAB885 /* TrackModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129CB24F41ACB00BAB885 /* CoreDataModel */,
+				8A4129C724F4113400BAB885 /* TrackModel.swift */,
+			);
+			path = TrackModel;
+			sourceTree = "<group>";
+		};
+		8A4129CB24F41ACB00BAB885 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A4129D424F42A0A00BAB885 /* Track+CoreDataClass.swift */,
+				8A4129D524F42A0A00BAB885 /* Track+CoreDataProperties.swift */,
+			);
+			name = CoreDataModel;
+			path = Techtic_practical/Model/CoreDataModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		AA30E7D6CEAA26357405103F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D45596EAFAACD32DA6EF113 /* Pods-Techtic_practical.debug.xcconfig */,
+				4D63B585B1DE1D04C7A9F40A /* Pods-Techtic_practical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D60CF61C08C06309CC68CEB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DC1B466A806EA0317FE5855 /* Pods_Techtic_practical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A41299924F4012300BAB885 /* Techtic_practical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4129B124F4012400BAB885 /* Build configuration list for PBXNativeTarget "Techtic_practical" */;
+			buildPhases = (
+				80884B560937AA81C5C8103A /* [CP] Check Pods Manifest.lock */,
+				8A41299624F4012300BAB885 /* Sources */,
+				8A41299724F4012300BAB885 /* Frameworks */,
+				8A41299824F4012300BAB885 /* Resources */,
+				80935817138C22BCCA552B8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Techtic_practical;
+			productName = Techtic_practical;
+			productReference = 8A41299A24F4012300BAB885 /* Techtic_practical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A41299224F4012300BAB885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = kavinMacbook;
+				TargetAttributes = {
+					8A41299924F4012300BAB885 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8A41299524F4012300BAB885 /* Build configuration list for PBXProject "Techtic_practical" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A41299124F4012300BAB885;
+			productRefGroup = 8A41299B24F4012300BAB885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A41299924F4012300BAB885 /* Techtic_practical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A41299824F4012300BAB885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4129AD24F4012400BAB885 /* LaunchScreen.storyboard in Resources */,
+				8A4129AA24F4012400BAB885 /* Assets.xcassets in Resources */,
+				8A4129A524F4012300BAB885 /* Main.storyboard in Resources */,
+				8A4129BD24F4023300BAB885 /* HomeTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80884B560937AA81C5C8103A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Techtic_practical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80935817138C22BCCA552B8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techtic_practical/Pods-Techtic_practical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Techtic_practical/Pods-Techtic_practical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Techtic_practical/Pods-Techtic_practical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A41299624F4012300BAB885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4129A824F4012300BAB885 /* Techtic_practical.xcdatamodeld in Sources */,
+				8A4129C424F4033900BAB885 /* ServiceManger.swift in Sources */,
+				8A41299E24F4012300BAB885 /* AppDelegate.swift in Sources */,
+				8A4129A024F4012300BAB885 /* SceneDelegate.swift in Sources */,
+				8A4129C824F4113400BAB885 /* TrackModel.swift in Sources */,
+				8A4129D724F42A0A00BAB885 /* Track+CoreDataProperties.swift in Sources */,
+				8A4129BC24F4023300BAB885 /* HomeTableCell.swift in Sources */,
+				8A4129C224F4033900BAB885 /* extention.swift in Sources */,
+				8A4129B824F4017300BAB885 /* HomeViewController.swift in Sources */,
+				8A4129CA24F419B800BAB885 /* CoreDataManager.swift in Sources */,
+				8A4129D624F42A0A00BAB885 /* Track+CoreDataClass.swift in Sources */,
+				8A4129D924F4535400BAB885 /* AIReachabilityManager.swift in Sources */,
+				8A4129C324F4033900BAB885 /* Globel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A4129A324F4012300BAB885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4129A424F4012300BAB885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A4129AB24F4012400BAB885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A4129AC24F4012400BAB885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A4129AF24F4012400BAB885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A4129B024F4012400BAB885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A4129B224F4012400BAB885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D45596EAFAACD32DA6EF113 /* Pods-Techtic_practical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7332CR9FH;
+				INFOPLIST_FILE = Techtic_practical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavin.Techtic-practical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8A4129B324F4012400BAB885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D63B585B1DE1D04C7A9F40A /* Pods-Techtic_practical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7332CR9FH;
+				INFOPLIST_FILE = Techtic_practical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavin.Techtic-practical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A41299524F4012300BAB885 /* Build configuration list for PBXProject "Techtic_practical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4129AF24F4012400BAB885 /* Debug */,
+				8A4129B024F4012400BAB885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A4129B124F4012400BAB885 /* Build configuration list for PBXNativeTarget "Techtic_practical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A4129B224F4012400BAB885 /* Debug */,
+				8A4129B324F4012400BAB885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A4129A624F4012300BAB885 /* Techtic_practical.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A4129A724F4012300BAB885 /* Techtic_practical.xcdatamodel */,
+			);
+			currentVersion = 8A4129A724F4012300BAB885 /* Techtic_practical.xcdatamodel */;
+			path = Techtic_practical.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A41299224F4012300BAB885 /* Project object */;
+}

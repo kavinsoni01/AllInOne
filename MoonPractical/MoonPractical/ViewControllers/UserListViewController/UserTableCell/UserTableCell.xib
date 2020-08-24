@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="UserTableCell" customModule="MoonPractical" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="495" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="495" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CwK-FB-uyS">
+                        <rect key="frame" x="0.0" y="0.0" width="495" height="95"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fcE-dR-pYW">
+                                <rect key="frame" x="20" y="10" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fcE-dR-pYW" secondAttribute="height" id="Mki-lg-1Yx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jane Smith" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWI-jX-SHa">
+                                <rect key="frame" x="105" y="10" width="380" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test@testing.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTn-G4-h9p">
+                                <rect key="frame" x="105" y="35" width="99.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBI-cx-okR">
+                                <rect key="frame" x="0.0" y="94" width="495" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="2YA-zp-K7j"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03 mar,2019 | 12:15:23 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xqh-kR-r6L">
+                                <rect key="frame" x="115" y="69.5" width="360" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="LBG-fC-MIK">
+                                <rect key="frame" x="451" y="35.5" width="24" height="24"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GWI-jX-SHa" firstAttribute="leading" secondItem="fcE-dR-pYW" secondAttribute="trailing" constant="10" id="3db-Af-oRN"/>
+                            <constraint firstItem="vTn-G4-h9p" firstAttribute="top" secondItem="GWI-jX-SHa" secondAttribute="bottom" constant="5" id="3qD-UO-olL"/>
+                            <constraint firstItem="vTn-G4-h9p" firstAttribute="leading" secondItem="fcE-dR-pYW" secondAttribute="trailing" constant="10" id="8T2-By-rKp"/>
+                            <constraint firstItem="sBI-cx-okR" firstAttribute="top" secondItem="Xqh-kR-r6L" secondAttribute="bottom" constant="10" id="Iaa-NZ-2c5"/>
+                            <constraint firstItem="Xqh-kR-r6L" firstAttribute="leading" secondItem="fcE-dR-pYW" secondAttribute="trailing" constant="20" id="JXz-e4-EeB"/>
+                            <constraint firstAttribute="trailing" secondItem="sBI-cx-okR" secondAttribute="trailing" id="SWQ-FN-tuJ"/>
+                            <constraint firstAttribute="trailing" secondItem="GWI-jX-SHa" secondAttribute="trailing" constant="10" id="SwA-Nk-mPD"/>
+                            <constraint firstItem="LBG-fC-MIK" firstAttribute="centerY" secondItem="CwK-FB-uyS" secondAttribute="centerY" id="Wz7-gx-hbT"/>
+                            <constraint firstAttribute="trailing" secondItem="LBG-fC-MIK" secondAttribute="trailing" constant="20" id="bFf-5N-gJF"/>
+                            <constraint firstItem="LBG-fC-MIK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vTn-G4-h9p" secondAttribute="trailing" constant="20" id="cVZ-zN-xd8"/>
+                            <constraint firstItem="GWI-jX-SHa" firstAttribute="top" secondItem="CwK-FB-uyS" secondAttribute="top" constant="10" id="dr3-Tu-8rw"/>
+                            <constraint firstAttribute="trailing" secondItem="Xqh-kR-r6L" secondAttribute="trailing" constant="20" id="hU7-6y-rcE"/>
+                            <constraint firstItem="sBI-cx-okR" firstAttribute="leading" secondItem="CwK-FB-uyS" secondAttribute="leading" id="izO-Jt-VOH"/>
+                            <constraint firstItem="fcE-dR-pYW" firstAttribute="leading" secondItem="CwK-FB-uyS" secondAttribute="leading" constant="20" id="kuA-SL-J6i"/>
+                            <constraint firstAttribute="bottom" secondItem="sBI-cx-okR" secondAttribute="bottom" id="lz3-De-zCu"/>
+                            <constraint firstItem="fcE-dR-pYW" firstAttribute="top" secondItem="CwK-FB-uyS" secondAttribute="top" constant="10" id="nvG-u4-yhG"/>
+                            <constraint firstAttribute="bottom" secondItem="fcE-dR-pYW" secondAttribute="bottom" constant="10" id="sjD-6S-cqe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CwK-FB-uyS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EbT-DE-784"/>
+                    <constraint firstAttribute="bottom" secondItem="CwK-FB-uyS" secondAttribute="bottom" id="HwX-vB-6Ki"/>
+                    <constraint firstItem="CwK-FB-uyS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="epf-oH-Avy"/>
+                    <constraint firstAttribute="trailing" secondItem="CwK-FB-uyS" secondAttribute="trailing" id="hXk-VN-rX2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgUser" destination="fcE-dR-pYW" id="rpP-yy-Oig"/>
+                <outlet property="lblDate" destination="Xqh-kR-r6L" id="OMU-kn-VKa"/>
+                <outlet property="lblEmail" destination="vTn-G4-h9p" id="qsC-Ws-TSX"/>
+                <outlet property="lblName" destination="GWI-jX-SHa" id="Phg-uc-IGP"/>
+            </connections>
+            <point key="canvasLocation" x="258.69565217391306" y="153.01339285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow" width="24" height="24"/>
+    </resources>
+</document>
